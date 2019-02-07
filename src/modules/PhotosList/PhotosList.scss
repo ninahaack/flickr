@@ -1,0 +1,5 @@
+.photos-list {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(auto-fill, 490px);  
+}

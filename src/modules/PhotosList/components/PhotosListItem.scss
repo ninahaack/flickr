@@ -1,0 +1,46 @@
+.photo-list-item {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 400px;
+  max-height: 400px;
+  width: 100%;
+
+  .text-content {
+    margin: 20px 10px;
+
+    .title {
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    }
+  
+    .subtitle {
+      color: #757575;
+  
+      a {
+        font-size: 16px;
+        color: #757575;
+        text-decoration: none;
+        font-weight: 500;
+      }
+    }
+  }
+  
+
+  .tags {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+
+    .title {
+      font-size: 12px;
+    }
+
+    .chips {
+      margin-top: 5px;
+    }
+  }
+}
