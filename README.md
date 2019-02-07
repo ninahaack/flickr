@@ -1,6 +1,21 @@
 # flickr
 
-## Project setup
+## Running with docker
+
+### build the Docker image
+```
+docker build -t flickr-app .
+```
+
+### build the Docker image
+```
+docker run -it -p 8080:8080 --rm flickr-app
+```
+
+
+## Running without docker
+
+### Project setup
 ```
 npm install
 ```
@@ -14,16 +29,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
