@@ -3,9 +3,13 @@
   flex-direction: column;
   overflow-y: auto;
   overflow-x: hidden;
-  min-height: 400px;
-  max-height: 400px;
+  min-height: 470px;
+  max-height: 470px;
   width: 100%;
+
+  .photo-image {
+    max-height: 300px;
+  }
 
   .text-content {
     margin: 20px 10px;
@@ -14,6 +18,22 @@
       a {
         color: black;
         text-decoration: none;
+        line-height: 20px;
+        max-height: 28px;
+        max-height: 40px;
+        -webkit-line-clamp: 2;
+        -moz-line-clamp: 2;
+        display: block;
+        display: -webkit-box;
+        display: -moz-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        /*! autoprefixer: ignore next */
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        padding: 0;
+        word-break: break-all;
+        word-break: break-word;
       }
     }
   
@@ -33,7 +53,7 @@
   .tags {
     display: flex;
     flex-direction: column;
-    margin: 0 10px;
+    margin: 0 10px 20px 10px;
 
     .tag-title {
       font-size: 18px;

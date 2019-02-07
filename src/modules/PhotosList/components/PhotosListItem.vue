@@ -1,6 +1,10 @@
 <template>
   <v-card class="photo-list-item">
-    <v-img :src="photo.media.m" height="300px" />
+    <v-img
+      :src="photo.media.m"
+      height="300px"
+      class="photo-image"
+    />
     
     <div class="text-content">
       <div v-if="hasTitle" class="title">
