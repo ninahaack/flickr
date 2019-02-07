@@ -6,7 +6,7 @@
       class="photo-image"
     />
     
-    <div class="text-content">
+    <div class="text-container">
       <div v-if="hasTitle" class="title">
         <a :href="photo.link" target="_blank">
           {{photo.title}}
