@@ -17,7 +17,7 @@
     </div>
 
     <div class="tags" v-if="tags">
-      <div class="title">
+      <div class="tag-title">
         Tags:
       </div>
       <div class="chips">

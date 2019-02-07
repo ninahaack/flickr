@@ -1,7 +1,7 @@
 <template>
   <v-app>
-    <v-toolbar app>
-      <v-toolbar-title class="headline">
+    <v-toolbar dark color="primary">
+      <v-toolbar-title class="headline" color="blue">
         <span>Flickr</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
